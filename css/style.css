@@ -1,0 +1,294 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.open-hero {
+  height: 570px;
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url("../img/360bridge.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.open-hero h1 {
+  font-size: 370%;
+}
+
+.btn-lg {
+  background-color: black;
+  margin-left: 9%;
+  margin-top: 5%;
+  border-color: transparent;
+}
+.resume-brick {
+  height: 475px;
+}
+
+.skillsleft {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url("../img/capital2.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.skillsright {
+  text-align: center;
+}
+
+.skill-logo {
+  height: 145px;
+  display: inline-block;
+  margin-top:8%;
+}
+
+.experience {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url("../img/mountbonnell2.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.experience-logo {
+  height: 130px;
+  margin: 2% auto;
+}
+
+.experience h4 {
+  margin-top: 4%;
+  font-weight: bold;
+}
+
+.experience p {
+  font-size: 105%
+}
+
+.alk {
+  text-align: center;
+}
+
+.invacare {
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+.education-logo {
+  height: 195px;
+  margin: 8% auto;
+
+}
+
+.letu,.aca {
+  text-align: center;
+}
+
+.aca {
+  margin-top: 15%;
+}
+
+.portfolio {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url("../img/cafejava.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.portfolio h2 {
+  color: white;
+}
+
+.takeaway,.animatedscn,.wine {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.docbrown {
+  text-align: center;
+}
+
+.portfolio-pic {
+  height: 340px;
+}
+
+.portfolio-pic-wide {
+  height: 260px;
+}
+
+.portfoliobutton {
+  margin-top: 4%;
+}
+
+.portfoliobutton-wide {
+  margin-top: 30%;
+}
+
+.about-me {
+
+}
+
+.myface {
+  height: 475px;
+  margin-left:0px;
+}
+
+.sunset {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),url("../img/sunset2.jpg");
+  background-position: center;
+  background-size:cover;
+  height: 475px;
+  color: white;
+}
+
+.enchrock {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url("../img/enchrock.jpg");
+  background-position: center;
+  background-size:cover;
+  height: 475px;
+  color: white;
+
+}
+
+.bigboxtext {
+  /*margin-top: 0;*/
+  padding-top: 11%;
+  padding-left: 14%;
+  padding-right: 18%;
+}
+
+.bigboxtext h2 {
+  line-height: 50px;
+  font-size: 270%;
+}
+
+.bigboxtext p {
+  line-height: 25px;
+  font-size: 130%;
+}
+
+}
+
+
+
+
+
+/*This will hide the carousel controls until the mouse hovers over them*/
+.carousel .carousel-control {
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control { visibility: visible;
+}
+
+.black {
+  background-color: black;
+}
+
+.map {
+  padding-top: 16%;
+  text-align: center;
+}
+.frame-map {
+  text-align: center;
+}
+.contactme {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url("../img/hallway.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.contactme h2 {
+  margin-top: 25%;
+}
+
+.fa {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 20px;
+}
+
+
+
+
+@media (max-width: 992px) {
+
+  .open-hero {
+    text-align: center
+    }
+
+  .btn-lg {
+    margin-left: 0;
+  }
+
+  .skillsleft {
+    text-align: center;
+  }
+
+  .skillsright {
+    height: 930px;
+  }
+
+  .skillsright img {
+    width: 32%;
+    height: auto;
+  }
+
+  .experience {
+    height: 500px;
+    text-align: center;
+  }
+
+  .education,.portfolio {
+    text-align: center;
+  }
+
+  .portfoliobutton-wide {
+    margin-top: 4%
+  }
+
+  .portfolio-pic-wide {
+    height: 320px;
+  }
+
+  iframe {
+    width: 300px;
+    height: 200px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .skillsright {
+    height: 600px;
+  }
+
+}
