@@ -11,7 +11,7 @@ body {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("../img/360bridge.jpg");
+    ), url("../img/360bridge2.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -32,17 +32,91 @@ body {
   height: 475px;
 }
 
-.skillsleft {
+.welcomeLeft {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.welcomeRight {
+  text-align: center;
+  font-family:'Lobster', cursive;
+}
+
+.welcomeRight h1 {
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.welcomeMsg {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.projects {
   background-image:linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("../img/capital2.jpg");
+    ), url("../img/cafejava2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 850px;
+}
+
+.projects h2 {
+  color: white;
+}
+
+.projectItem {
+  height: 385px;
+  /*outline: red solid 1px;*/
+}
+
+.projectItemInner {
+  background: rgba(255, 255, 255, 0.75); /*This will make the white background of the div transparent.*/
+  border-radius: 8px;
+  width: 90%;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.projectItemInner img {
+  width: 75%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectItemInner p, h4 {
+  height: 45px;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.projectItemInner i, a {
+  font-size: 16px;
+}
+
+.projectItemInner i {
+  letter-spacing: 4px;
+}
+
+.skillsLeft {
+  background-image:linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), url("../img/capital3.jpg");
   background-position: center;
   background-size: cover;
   color: white;
 }
 
-.skillsright {
+.skillsRight {
   text-align: center;
 }
 
@@ -56,7 +130,7 @@ body {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
-    ), url("../img/mountbonnell2.jpg");
+    ), url("../img/mountbonnell4.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -69,12 +143,14 @@ body {
 }
 
 .experience h4 {
-  margin-top: 4%;
+  margin-top: 15px;
+  height: 20px;
   font-weight: bold;
 }
 
 .experience p {
-  font-size: 105%
+  font-size: 105%;
+  margin-top: 20px;
 }
 
 .alk {
@@ -105,7 +181,7 @@ body {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
-    ), url("../img/cafejava.jpg");
+    ), url("../img/cafejava2.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -144,32 +220,9 @@ body {
 
 }
 
-.myface {
+.myFace {
   height: 475px;
   margin-left:0px;
-}
-
-.sunset {
-  background-image:linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),url("../img/sunset2.jpg");
-  background-position: center;
-  background-size:cover;
-  height: 475px;
-  color: white;
-}
-
-.enchrock {
-  background-image:linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ), url("../img/enchrock.jpg");
-  background-position: center;
-  background-size:cover;
-  height: 475px;
-  color: white;
-
 }
 
 .bigboxtext {
@@ -179,46 +232,20 @@ body {
   padding-right: 18%;
 }
 
-.bigboxtext h2 {
-  line-height: 50px;
-  font-size: 270%;
-}
-
-.bigboxtext p {
-  line-height: 25px;
-  font-size: 130%;
-}
-
-}
-
-
-
-
-
-/*This will hide the carousel controls until the mouse hovers over them*/
-.carousel .carousel-control {
-  visibility: hidden;
-}
-
-.carousel:hover .carousel-control { visibility: visible;
-}
-
-.black {
-  background-color: black;
-}
-
 .map {
   padding-top: 16%;
   text-align: center;
 }
+
 .frame-map {
   text-align: center;
 }
-.contactme {
+
+.contactMe {
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
-    ), url("../img/hallway.jpg");
+    ), url("../img/hallway2.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
@@ -226,8 +253,13 @@ body {
   color: white;
 }
 
-.contactme h2 {
+.contactMe h2 {
   margin-top: 25%;
+}
+
+.contactMe a {
+  text-decoration: none;
+  color: white;
 }
 
 .fa {
@@ -236,7 +268,16 @@ body {
   letter-spacing: 20px;
 }
 
+.bold {
+  font-weight: bold;
+}
 
+#notAvailable {
+  font-style: italic;
+  font-size: 11px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 
 @media (max-width: 992px) {
@@ -249,16 +290,19 @@ body {
     margin-left: 0;
   }
 
-  .skillsleft {
+  .skillsLeft {
     text-align: center;
+    height: 70px;
+    color: black;
+    background-image: none
   }
 
-  .skillsright {
-    height: 930px;
+  .skillsRight {
+    height: 730px;
   }
 
-  .skillsright img {
-    width: 32%;
+  .skillsRight img {
+    width: 22%;
     height: auto;
   }
 
@@ -267,16 +311,18 @@ body {
     text-align: center;
   }
 
-  .education,.portfolio {
+  .education {
     text-align: center;
+    height: 340px;
   }
 
-  .portfoliobutton-wide {
-    margin-top: 4%
+  .education img {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
-  .portfolio-pic-wide {
-    height: 320px;
+  .letu, .aca {
+    margin-top: 15px;
   }
 
   iframe {
@@ -284,11 +330,85 @@ body {
     height: 200px;
   }
 
+  .projects {
+    height: 1400px;
+  }
+
+  .projects h2 {
+    text-align: center;
+  }
+
+  .projectItemInner {
+    height: 400px;
+  }
+
+  .projectItem {
+    height: 425px;
+  }
+
+  .projectItem a {
+    margin-top: 30px;
+    }
+
+
+  .welcome h1 {
+    margin-top: 10px;
+  }
+
+  .myFace {
+    height: 350px;
+  }
+
+  .contactMe {
+    height: 400px;
+  }
+
+
 }
 
 @media (max-width: 767px) {
-  .skillsright {
-    height: 600px;
+
+  .myFace {
+    width: 100%;
+    height: auto;
   }
 
-}
+
+  .skillsLeft {
+    height: 80px;
+    color: black;
+    background-image: none;
+  }
+
+  .skillsRight {
+    height: 380px;
+  }
+
+  .projects {
+    height: 2500px;
+  }
+
+  .projectItemInner {
+    height: 365px;
+  }
+
+  .projectItem {
+    height: 400px;
+  }
+
+  .projectItem a {
+    margin-top: 30px;
+    }
+
+  .experience {
+    height: 535px;
+  }
+
+  .invacare {
+    margin-top: 85px;
+  }
+
+  .contactMe {
+    height: 300px;
+  }
+  }

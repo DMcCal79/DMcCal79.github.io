@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dave McCalmont Resume</title>
+  <title>Dave McCalmont Portfolio</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,700italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto:400,500,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -22,11 +23,11 @@
       </div>
       <div id="nav-collapse" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
+         <li><a href="#aboutnb">ABOUT ME</a></li>
+         <li><a href="#projectsnb">PROJECTS</a></li>
          <li><a href="#skillsnb">SKILLS</a></li>
          <li><a href="#experiencenb">EXPERIENCE</a></li>
          <li><a href="#educationnb">EDUCATION</a></li>
-         <li><a href="#portfolionb">PORTFOLIO</a></li>
-         <li><a href="#aboutmenb">ABOUT ME</a></li>
          <li><a href="#contactmenb">CONTACT INFO</a></li>
         </ul>
       </ul>
@@ -34,25 +35,115 @@
   </nav>
   <div class="container-fluid">
     <div class="row">
-      <div id="dave" class="open-hero col-xs-12 col-lg-12">
+      <div class="open-hero col-xs-12 col-lg-12">
         <h1>Dave McCalmont</h1>
         <a href="#contactmenb" class="btn btn-primary btn-lg">Contact Me</a>
       </div>
     </div>
   </div>
   <div class="container-fluid">
+    <div class="row welcome">
+      <div id="aboutnb" class="welcomeLeft col-xs-12 col-sm-5 col-md-4">
+        <img class="img-responsive myFace" src="./img/LinkedIn3.jpg"/>
+      </div>
+      <div class="welcomeRight col-xs-12 col-sm-7 col-md-8">
+        <h1>Welcome!</h1>
+        <p class="welcomeMsg">My name is Dave McCalmont and I am aspiring to enter
+          the web development world.  I've recently completed the full stack web
+          development program at Austin Coding Academy.  This was a 9-month
+          curriculum that covered HTML, CSS, Bootstrap, JavaScript, Node.js, React and
+          Express.  Feel free to check out some of my projects below.  Thank you
+          for visiting my portfolio!
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid projects">
+    <div class="row ">
+        <div id="projectsnb" class="col-xs-12 col-md-12">
+          <h2>Projects</h2>
+        </div>
+        <div class="projectItem col-xs-12 col-sm-6 col-md-4">
+          <div class="projectItemInner">
+            <h4>React</h4>
+            <img class="img-responsive" src="./img/MovieQuest.jpg"/>
+            <p>A React application that allows a user to search for a movie, add it to a watch list,
+              and click on the movie for more info. *</p>
+            <a class="btn btn-info btn-sm" href="https://github.com/DMcCal79/movie-list-starter"
+            target="_blank"><i class="fa fa-code" aria-hidden="true"></i>See Code</a>
+            <span id="notAvailable"><p>*Currently not running due to OMDb API being down as of 2/4/17.
+              Code available.</p></span>
+          </div>
+        </div>
+        <div class="projectItem col-xs-12 col-sm-6 col-md-4">
+          <div class="projectItemInner">
+            <h4>Responsive with Bootstrap</h4>
+            <a href="https://dmccal79.github.io/intro-workbook/15LessonFifteen/Checkpoint3"
+            target="_blank"><img class="img-responsive" src="./img/checkpoint3scnv3.jpg"/></a>
+            <p>A responsive website created with Bootstrap.</p>
+            <a class="btn btn-info btn-sm" href="https://github.com/DMcCal79/intro-workbook/tree/gh-pages/15LessonFifteen/Checkpoint3"
+            target="_blank"><i class="fa fa-code" aria-hidden="true"></i>See Code</a>
+          </div>
+        </div>
+        <div class="projectItem col-xs-12 col-sm-6 col-md-4">
+          <div class="projectItemInner">
+            <h4>AJAX and APIs</h4>
+            <a href="https://dmccal79.github.io/intermediate-workbook/apps/11gist-blog"
+            target="_blank"><img class="img-responsive" src="./img/BaseballBloggin.jpg"/></a>
+            <p>A blog that pulls from my GitHub gists API via an AJAX request.</p>
+            <a class="btn btn-info btn-sm" href="https://github.com/DMcCal79/intermediate-workbook/tree/gh-pages/apps/11gist-blog"
+            target="_blank"><i class="fa fa-code" aria-hidden="true"></i>See Code</a>
+          </div>
+        </div>
+        <div class="projectItem col-xs-12 col-sm-6 col-md-4">
+          <div class="projectItemInner">
+            <h4>Carousels</h4>
+            <a href="https://dmccal79.github.io/intro-workbook/16LessonSixteen/homework"
+            target="_blank"><img src="./img/carousel.jpg"/></a>
+            <p>A responsive website with carousels created with Bootstrap.</p>
+            <a class="btn btn-info btn-sm" href="https://github.com/DMcCal79/intro-workbook/tree/gh-pages/16LessonSixteen/homework"
+            target="_blank"><i class="fa fa-code" aria-hidden="true"></i>See Code</a>
+          </div>
+        </div>
+        <div class="projectItem col-xs-12 col-sm-6 col-md-4">
+          <div class="projectItemInner">
+            <h4>Responsive Web Design</h4>
+            <a href="https://dmccal79.github.io/intro-workbook/11LessonEleven/in-class-project"
+            target="_blank"><img class="img-responseive" src="./img/takeaway2.jpg"/></a>
+            <p>A responsive website created w/o a framework.</p>
+            <a class="btn btn-info btn-sm" href="https://github.com/DMcCal79/intro-workbook/tree/gh-pages/11LessonEleven/in-class-project"
+            target="_blank"><i class="fa fa-code" aria-hidden="true"></i>See Code</a>
+          </div>
+        </div>
+        <div class="projectItem col-xs-12 col-sm-6 col-md-4">
+          <div class="projectItemInner">
+            <h4>jQuery</h4>
+            <a href="https://dmccal79.github.io/intermediate-workbook/apps/08jquery-towers-of-hanoi"
+            target="_blank"><img class="img-responsive" src="./img/TowersOfHanoi.jpg"/></a>
+            <p>A Towers of Hanoi game created with jQuery. A move is made by clicking on a block and
+              then clicking on the desired location.  </p>
+            <a class="btn btn-info btn-sm" href="https://github.com/DMcCal79/intermediate-workbook/tree/gh-pages/apps/08jquery-towers-of-hanoi"
+            target="_blank"><i class="fa fa-code" aria-hidden="true"></i>See Code</a>
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+  <div class="container-fluid">
     <div class="row">
-      <div id="skillsnb" class="resume-brick skillsleft col-xs-12 col-lg-4">
+      <div id="skillsnb" class="resume-brick skillsLeft col-xs-12 col-lg-4">
         <h2>Skills</h2>
       </div>
-      <div class="resume-brick skillsright animated zoomIn col-xs-12 col-lg-8">
+      <div class="resume-brick skillsRight col-xs-12 col-lg-8">
         <img class="skill-logo img-responsive" src="./img/html5.png"/>
         <img class="skill-logo img-responsive" src="./img/css3.png"/>
         <img class="skill-logo img-responsive" src="./img/bootstrap.png"/>
+        <img class="skill-logo img-responsive" src="./img/javascript2.png"/>
+        <img class="skill-logo img-responsive" src="./img/react.png"/>
+        <img class="skill-logo img-responsive" src="./img/node2.png"/>
         <img class="skill-logo img-responsive" src="./img/sap.png"/>
         <img class="skill-logo img-responsive" src="./img/excel.png"/>
         <img class="skill-logo img-responsive" src="./img/outlook.png"/>
-        <img class="skill-logo img-responsive" src="./img/powerpoint.png"/>
         <img class="skill-logo img-responsive" src="./img/word.png"/>
       </div>
     </div>
@@ -63,7 +154,8 @@
         <h2>Experience</h2>
          <div class="alk">
           <div class="alk-logo">
-            <a href="http://www.alk.net/us" target="_blank"><img class="experience-logo img-responsive animated zoomIn" src="./img/alk3.png"/></a>
+            <a href="http://www.alk.net/us" target="_blank"><img class="experience-logo img-responsive"
+              src="./img/alk3.png"/></a>
           </div>
             <h4>Sales Support Representative  2013 - current</h4>
               <p>Assisted customers with placing orders, tracking shipments, and product inquiries.</p>
@@ -75,7 +167,7 @@
       </div>
       <div class="resume-brick experience col-xs-12 col-lg-6">
           <div class="invacare">
-            <a href="http://www.invacare.com" target="_blank"><img class="experience-logo img-responsive animated zoomIn" src="./img/invacare.png"/></a>
+            <a href="http://www.invacare.com" target="_blank"><img class="experience-logo img-responsive" src="./img/invacare.png"/></a>
             <h4>Inside Sales Representative  2004-2007</h4>
               <p>Exceeded sales objectives in 2005.</p>
               <p>Introduced new products and marketing programs to customers to help grow their business. </p>
@@ -89,186 +181,51 @@
       <div id="educationnb" class="resume-brick education col-xs-12 col-lg-6">
         <h2>Education</h2>
         <div class="letu">
-          <a href="http://www.letourneau.edu" target="_blank"><img class="education-logo img-responsive animated zoomIn" src="./img/letu.jpg"></a>
+          <a href="http://www.letourneau.edu" target="_blank"><img class="education-logo img-responsive"
+            src="./img/letu.jpg"></a>
           <h3>B.S. Marketing</h3>
           <h4>2002</h4>
         </div>
       </div>
       <div class="resume-brick education col-xs-12 col-lg-6">
         <div class="aca">
-          <a href="http://www.austincodingacademy.com" target="_blank"><img class="education-logo img-responsive animated zoomIn" src="./img/aca2.png"></a>
-          <h3>Training received in HTML, CSS, and Bootstrap</h3>
-          <h3>Next course will include JavaScript & jQuery</h3>
+          <a href="http://www.austincodingacademy.com" target="_blank"><img class="education-logo img-responsive"
+            src="./img/aca2.png"></a>
+          <h3>Completed the Full Stack Web Development Program</h3>
+          <h4>2016</h4>
         </div>
       </div>
     </div>
   </div>
-  <!-- <div class="container-fluid">
-    <div class="row">
-      <div id="portfolionb" class="resume-brick portfolio col-xs-12 col-sm-6 col-lg-3">
-      <h2>Portfolio</h2> -->
-        <!-- <div class="docbrown">
-          <img class= "portfolio-pic img-responsive animated zoomIn" src="./img/checkpoint2scn.jpg"/>
-          <button type="button" class="btn btn-info btn-sm portfoliobutton" data-toggle="modal" data-target="#myModal1">More Info</button>
-          <div class="modal fade" id="myModal1" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Following a Template</h4>
-          </div>
-          <div class="modal-body">
-            <p>We were given a template to follow for this assigment but given free reign over the content.  I chose to make a "Back To The Future" themed site.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div> -->
-    <!-- </div>
-  </div>
-  </div>
-      <div class="resume-brick portfolio col-xs-12 col-sm-6 col-lg-3">
-        <div class="takeaway">
-          <img class= "portfolio-pic-wide img-responsive animated zoomIn" src="./img/takeaway.jpg"/>
-          <button type="button" class="btn btn-info btn-sm portfoliobutton-wide" data-toggle="modal" data-target="#myModal2">More Info</button>
-          <div class="modal fade" id="myModal2" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Media Query</h4>
-          </div>
-          <div class="modal-body">
-            <p>The assignment taught us the concept of media query.  We worked in pairs to recreate a site that would change size when viewed on a tablet or smart phone.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-        </div>
-      </div>
-      <div class="resume-brick portfolio col-xs-12 col-sm-6 col-lg-3">
-        <div class="animatedscn">
-          <img class= "portfolio-pic img-responsive animated zoomIn" src="./img/animatedscn.jpg"/>
-          <button type="button" class="btn btn-info btn-sm portfoliobutton" data-toggle="modal" data-target="#myModal3">More Info</button>
-          <div class="modal fade" id="myModal3" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Showing/Hiding in Bootstrap</h4>
-          </div>
-          <div class="modal-body">
-            <p>This assignment taught us the concept of showing/hiding parts of a page in Bootstrap.  There are parts of this page that are hidden until viewed on a tablet or smartphone.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-        </div>
-      </div>
-      <div class="resume-brick portfolio col-xs-12 col-sm-6 col-lg-3">
-        <div class="wine">
-          <img class= "portfolio-pic img-responsive animated zoomIn" src="./img/checkpoint3scn.jpg"/>
-          <button type="button" class="btn btn-info btn-sm portfoliobutton" data-toggle="modal" data-target="#myModal4">More Info</button>
-          <div class="modal fade" id="myModal4" role="dialog">
-            <div class="modal-dialog">
-              <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">The Bootstrap Grid System</h4>
-          </div>
-          <div class="modal-body">
-            <p>The Boostrap grid system is great for making responsive webpages.  This assignment taught us how to use the gridsystem to make parts of the page change shape to fit a laptop, tablet, or smartphone.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
- </div>
-  <div class="container-fluid">
-    <div class="row black">
-      <div id="aboutmenb" class="resume-brick about-me col-xs-12 col-sm-6 col-lg-4">
-        <div class="mypic">
-          <img class="img-responsive myface" src="./img/linkedin2.jpg"/>
-        </div>
-      </div> -->
-      <!-- <div class="resume-brick about-me col-xs-12 col-sm-6 col-lg-8">
-        <div id="mycarousel" class="carousel slide" data-ride="carousel"> -->
-          <!--Indicators-->
-          <!-- <ol class="carousel-indicators">
-            <li data target="#mycarousel" data-slide-to="0" class="active"></li>
-            <li data target="#mycarousel" data-slide-to="1"></li>
-          </ol> -->
-          <!--Wrappers for slides-->
-          <!-- <div class="carousel-inner">
-            <div class="item active">
-              <div class="sunset">
-                <div class="bigboxtext">
-                  <h2>My Goal</h2>
-                  <p>My goal is to eventually transition from the sales & customer service world over to the tech industry.  I would like to start a new career as a Web Developer </p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="enchrock">
-                <div class="bigboxtext">
-                  <h2>What I Enjoy</h2>
-                  <p>I enjoy learning new skills and taking on new challenges.  I love working with technology and watching how it enhances the lives of everyone.</p>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!--Next and prev controls-->
-          <!-- <a class="left carousel-control" href="#mycarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><span>
-          </a>
-          <a class="right carousel-control" href="#mycarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"><span>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </div> -->
   <div class="container-fluid">
     <div class="row">
-      <div id="contactmenb" class="resume-brick contactme col-xs-12 col-sm-6 col-lg-6">
+      <div id="contactmenb" class="resume-brick contactMe col-xs-12 col-sm-6 col-lg-6">
         <h2>Contact Me</h2>
         <h3>512-507-2405</h3>
-        <h3>dave_mccalmont@hotmail.com</h3>
-        <a href="https://www.linkedin.com/in/dave-mccalmont-a88a9263" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        <a href="mailto:dave_mccalmont@hotmail.com"><h3>dave_mccalmont@hotmail.com</h3></a>
+        <a href="https://www.linkedin.com/in/dave-mccalmont-a88a9263"
+        target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
         </a>
         <a href="https://github.com/DMcCal79" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
 
       </div>
-      <div class="resume-brick contactme col-xs-12 col-sm-6 col-lg-6">
+      <div class="resume-brick contactMe col-xs-12 col-sm-6 col-lg-6">
        <div class="frame-map">
         <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d262214.559108458!2d-97.72526118513738!3d30.28726289059267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1468420536346" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d262214.559108458!2d-97.72526118513738!3d30.28726289059267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1468420536346"
+          width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-
+  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 </html>
