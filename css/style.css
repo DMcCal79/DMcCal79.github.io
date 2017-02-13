@@ -283,17 +283,7 @@ body {
 @media (max-width: 992px) {
 
   .open-hero {
-    text-align: center
-    height: 570px;
-    background-image:linear-gradient(
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ), url("../img/360bridge2.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    }
+  }
 
   .btn-lg {
     margin-left: 0;
@@ -370,6 +360,17 @@ body {
 
   .contactMe {
     height: 400px;
+  }
+
+  .contactMeMV {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ), url("../img/hallway2.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
   }
 
 
