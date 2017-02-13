@@ -307,7 +307,7 @@ body {
   }
 
   .experience {
-    height: 500px;
+    height: 950px;
     text-align: center;
   }
 
@@ -360,7 +360,11 @@ body {
   }
 
   .contactMe {
-    height: 475px;
+    height: 375px;
+  }
+
+  .contactMe .resume-brick{
+    height: 375px;
   }
 
 
@@ -401,7 +405,7 @@ body {
     }
 
   .experience {
-    height: 535px;
+    height: 950px;
   }
 
   .invacare {
@@ -409,7 +413,12 @@ body {
   }
 
   .contactMe {
-    height: 950px;
+    height: 650px;
   }
+
+  .contactMe .resume-brick{
+    height: 325px
+  }
+
 
 }
