@@ -368,6 +368,19 @@ body {
 
 @media (max-width: 767px) {
 
+  .open-hero {
+    text-align: center;
+    height: 570px;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ), url("../img/360bridge2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+  }
+
   .myFace {
     width: 100%;
     height: auto;
@@ -411,3 +424,5 @@ body {
   .contactMe {
     height: 300px;
   }
+
+}
