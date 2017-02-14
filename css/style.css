@@ -60,7 +60,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 850px;
+  height: 880px;
 }
 
 .projects h2 {
@@ -68,15 +68,15 @@ body {
 }
 
 .projectItem {
-  height: 385px;
-  /*outline: red solid 1px;*/
+  height: 400px;
+
 }
 
 .projectItemInner {
   background: rgba(255, 255, 255, 0.75); /*This will make the white background of the div transparent.*/
   border-radius: 8px;
   width: 90%;
-  height: 360px;
+  height: 375px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 12px;
@@ -96,6 +96,10 @@ body {
   margin-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.projectItemInner p {
+  margin-bottom: 18px;
 }
 
 .projectItemInner i, a {
@@ -121,7 +125,7 @@ body {
 }
 
 .skill-logo {
-  height: 145px;
+  height: 130px;
   display: inline-block;
   margin-top:8%;
 }
